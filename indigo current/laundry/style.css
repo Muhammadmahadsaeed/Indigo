@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/AVENIR-LT.OTF");
+}
+ @font-face {
+    font-family: "Share";
+    src: url("../fonts/Share-Regular.ttf");
+  }
+#wrap{
+    position: relative;
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+      height: 100%;
+  }
+
+  #main{
+      margin: 3vw auto;
+      margin-bottom: 3vw;
+      padding-right: 3vw;
+      padding-left: 3vw;
+  }
+  .page_description{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  .page_description p{
+    letter-spacing: -0.01em;
+    font-family: "Share";
+    white-space: pre-wrap;
+    font-size: 25px;
+  }
+  .about_img{
+      width: 100%;
+  }
+  .about_img img{
+      width: 100%;
+      height: 100%;
+  }
+  .about_text{
+      width: 55%;
+      text-align: center;
+      margin: 0 auto;
+  }
+  .about_text p{
+    
+    font-family: "Avenir";
+    margin-bottom: 3%;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 2em;
+    letter-spacing: .06em;
+}
+  .library_img{
+    width: 100%;
+  }
+  .library_img img{
+    width: 100%;
+  }
+  .heading{
+    margin-top: 45%;
+    text-align: center;
+    margin-bottom: 8%;
+  }
+ .heading p {
+    font-family: "Share";
+    font-size: 25px;
+}
+.heading a{
+      letter-spacing: 0.08em;
+    color: black;
+    text-decoration: none;
+  }
+  .heading a:hover{
+      color:black;
+      text-decoration:none;
+  }
+  .footer {
+    margin: 3vw auto;
+  }
+  
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .about_text{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   .about_text{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .about_text{
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .about_text{
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+}
+}
